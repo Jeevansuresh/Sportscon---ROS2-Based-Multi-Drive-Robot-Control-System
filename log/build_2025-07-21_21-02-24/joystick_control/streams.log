@@ -1,0 +1,23 @@
+[0.801s] Invoking command in '/home/skyno/sportscon_ws/src/joystick_control': PYTHONPATH=/home/skyno/sportscon_ws/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/skyno/sportscon_ws/build/joystick_control/build install --record /home/skyno/sportscon_ws/build/joystick_control/install.log --single-version-externally-managed
+[0.929s] running egg_info
+[0.930s] writing ../../build/joystick_control/joystick_control.egg-info/PKG-INFO
+[0.930s] writing dependency_links to ../../build/joystick_control/joystick_control.egg-info/dependency_links.txt
+[0.930s] writing entry points to ../../build/joystick_control/joystick_control.egg-info/entry_points.txt
+[0.930s] writing requirements to ../../build/joystick_control/joystick_control.egg-info/requires.txt
+[0.930s] writing top-level names to ../../build/joystick_control/joystick_control.egg-info/top_level.txt
+[0.932s] reading manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/joystick_control/joystick_control.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.933s] copying joystick_control/joystick_control_node.py -> /home/skyno/sportscon_ws/build/joystick_control/build/lib/joystick_control
+[0.933s] running install
+[0.933s] running install_lib
+[0.934s] copying /home/skyno/sportscon_ws/build/joystick_control/build/lib/joystick_control/joystick_control_node.py -> /home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages/joystick_control
+[0.934s] byte-compiling /home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages/joystick_control/joystick_control_node.py to joystick_control_node.cpython-310.pyc
+[0.934s] running install_egg_info
+[0.936s] removing '/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages/joystick_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.936s] Copying ../../build/joystick_control/joystick_control.egg-info to /home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages/joystick_control-0.0.0-py3.10.egg-info
+[0.936s] running install_scripts
+[0.951s] Installing joystick_control_node script to /home/skyno/sportscon_ws/install/joystick_control/lib/joystick_control
+[0.951s] writing list of installed files to '/home/skyno/sportscon_ws/build/joystick_control/install.log'
+[0.971s] Invoked command in '/home/skyno/sportscon_ws/src/joystick_control' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/skyno/sportscon_ws/build/joystick_control/build install --record /home/skyno/sportscon_ws/build/joystick_control/install.log --single-version-externally-managed

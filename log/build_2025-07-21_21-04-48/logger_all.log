@@ -1,0 +1,281 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ca6f1035ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ca6f1035420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ca6f1035420>>)
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/skyno/sportscon_ws'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/differential_drive) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/differential_drive' with type 'ros.ament_python' and name 'differential_drive'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_control' with type 'ros.ament_python' and name 'joystick_control'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_drive) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mecanum_drive' with type 'ros.ament_python' and name 'mecanum_drive'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_drive) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_drive' with type 'ros.ament_python' and name 'omni_drive'
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.177s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/skyno/sportscon_ws/install
+[0.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 241 installed packages in /opt/ros/humble
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'differential_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'differential_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyno/sportscon_ws/build/differential_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyno/sportscon_ws/install/differential_drive', 'merge_install': False, 'path': '/home/skyno/sportscon_ws/src/differential_drive', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyno/sportscon_ws/build/joystick_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyno/sportscon_ws/install/joystick_control', 'merge_install': False, 'path': '/home/skyno/sportscon_ws/src/joystick_control', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyno/sportscon_ws/build/mecanum_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyno/sportscon_ws/install/mecanum_drive', 'merge_install': False, 'path': '/home/skyno/sportscon_ws/src/mecanum_drive', 'symlink_install': False, 'test_result_base': None}
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_target' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'omni_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.202s] DEBUG:colcon.colcon_core.verb:Building package 'omni_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyno/sportscon_ws/build/omni_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyno/sportscon_ws/install/omni_drive', 'merge_install': False, 'path': '/home/skyno/sportscon_ws/src/omni_drive', 'symlink_install': False, 'test_result_base': None}
+[0.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyno/sportscon_ws/src/differential_drive' with build type 'ament_python'
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('differential_drive', 'ament_prefix_path')
+[0.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/ament_prefix_path.ps1'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/ament_prefix_path.dsv'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/ament_prefix_path.sh'
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.207s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyno/sportscon_ws/src/joystick_control' with build type 'ament_python'
+[0.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control', 'ament_prefix_path')
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/ament_prefix_path.ps1'
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/ament_prefix_path.dsv'
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/ament_prefix_path.sh'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyno/sportscon_ws/src/mecanum_drive' with build type 'ament_python'
+[0.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive', 'ament_prefix_path')
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/ament_prefix_path.ps1'
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/ament_prefix_path.dsv'
+[0.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/ament_prefix_path.sh'
+[0.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyno/sportscon_ws/src/omni_drive' with build type 'ament_python'
+[0.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_drive', 'ament_prefix_path')
+[0.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/ament_prefix_path.ps1'
+[0.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/ament_prefix_path.dsv'
+[0.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/ament_prefix_path.sh'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'differential_drive' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.364s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'differential_drive' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.364s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyno/sportscon_ws/src/differential_drive'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joystick_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.512s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joystick_control' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.512s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyno/sportscon_ws/src/joystick_control'
+[0.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyno/sportscon_ws/src/mecanum_drive'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.807s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyno/sportscon_ws/src/omni_drive'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyno/sportscon_ws/src/differential_drive': PYTHONPATH=/home/skyno/sportscon_ws/build/differential_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/differential_drive build --build-base /home/skyno/sportscon_ws/build/differential_drive/build install --record /home/skyno/sportscon_ws/build/differential_drive/install.log --single-version-externally-managed
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyno/sportscon_ws/src/omni_drive': PYTHONPATH=/home/skyno/sportscon_ws/build/omni_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_drive build --build-base /home/skyno/sportscon_ws/build/omni_drive/build install --record /home/skyno/sportscon_ws/build/omni_drive/install.log --single-version-externally-managed install_data
+[1.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyno/sportscon_ws/src/mecanum_drive': PYTHONPATH=/home/skyno/sportscon_ws/build/mecanum_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_drive build --build-base /home/skyno/sportscon_ws/build/mecanum_drive/build install --record /home/skyno/sportscon_ws/build/mecanum_drive/install.log --single-version-externally-managed install_data
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyno/sportscon_ws/src/joystick_control': PYTHONPATH=/home/skyno/sportscon_ws/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/skyno/sportscon_ws/build/joystick_control/build install --record /home/skyno/sportscon_ws/build/joystick_control/install.log --single-version-externally-managed
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyno/sportscon_ws/src/differential_drive' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/differential_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/differential_drive build --build-base /home/skyno/sportscon_ws/build/differential_drive/build install --record /home/skyno/sportscon_ws/build/differential_drive/install.log --single-version-externally-managed
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive' for CMake module files
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive' for CMake config files
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive/lib'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive/lib/pkgconfig/differential_drive.pc'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages'
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('differential_drive', 'pythonpath')
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/pythonpath.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/pythonpath.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/hook/pythonpath.sh'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/differential_drive/bin'
+[1.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(differential_drive)
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/package.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/package.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/package.sh'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/package.bash'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/differential_drive/share/differential_drive/package.zsh'
+[1.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyno/sportscon_ws/install/differential_drive/share/colcon-core/packages/differential_drive)
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive' for CMake module files
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyno/sportscon_ws/src/omni_drive' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/omni_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_drive build --build-base /home/skyno/sportscon_ws/build/omni_drive/build install --record /home/skyno/sportscon_ws/build/omni_drive/install.log --single-version-externally-managed install_data
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive' for CMake config files
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive/lib'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive/bin'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive/lib/pkgconfig/omni_drive.pc'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_drive', 'pythonpath')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/pythonpath.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/pythonpath.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/hook/pythonpath.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/omni_drive/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_drive)
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/omni_drive/share/omni_drive/package.zsh'
+[1.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyno/sportscon_ws/install/omni_drive/share/colcon-core/packages/omni_drive)
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive' for CMake module files
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive' for CMake config files
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyno/sportscon_ws/src/mecanum_drive' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/mecanum_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_drive build --build-base /home/skyno/sportscon_ws/build/mecanum_drive/build install --record /home/skyno/sportscon_ws/build/mecanum_drive/install.log --single-version-externally-managed install_data
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive/lib/pkgconfig/mecanum_drive.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages'
+[1.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive', 'pythonpath')
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/pythonpath.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/pythonpath.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/hook/pythonpath.sh'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/mecanum_drive/bin'
+[1.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_drive)
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/package.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/package.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/package.sh'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/package.bash'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive/package.zsh'
+[1.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyno/sportscon_ws/install/mecanum_drive/share/colcon-core/packages/mecanum_drive)
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control' for CMake module files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control' for CMake config files
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyno/sportscon_ws/src/joystick_control' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/joystick_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joystick_control build --build-base /home/skyno/sportscon_ws/build/joystick_control/build install --record /home/skyno/sportscon_ws/build/joystick_control/install.log --single-version-externally-managed
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control/lib'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control/bin'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control/lib/pkgconfig/joystick_control.pc'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control/lib/python3.10/site-packages'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control', 'pythonpath')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/pythonpath.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/pythonpath.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/hook/pythonpath.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/skyno/sportscon_ws/install/joystick_control/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_control)
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/package.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/package.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/package.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/package.bash'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyno/sportscon_ws/install/joystick_control/share/joystick_control/package.zsh'
+[1.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyno/sportscon_ws/install/joystick_control/share/colcon-core/packages/joystick_control)
+[1.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.218s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.222s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.229s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyno/sportscon_ws/install/local_setup.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skyno/sportscon_ws/install/_local_setup_util_ps1.py'
+[1.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyno/sportscon_ws/install/setup.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyno/sportscon_ws/install/local_setup.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skyno/sportscon_ws/install/_local_setup_util_sh.py'
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyno/sportscon_ws/install/setup.sh'
+[1.234s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyno/sportscon_ws/install/local_setup.bash'
+[1.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyno/sportscon_ws/install/setup.bash'
+[1.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyno/sportscon_ws/install/local_setup.zsh'
+[1.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyno/sportscon_ws/install/setup.zsh'

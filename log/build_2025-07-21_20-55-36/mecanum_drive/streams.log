@@ -1,0 +1,33 @@
+[0.835s] Invoking command in '/home/skyno/sportscon_ws/src/mecanum_drive': PYTHONPATH=/home/skyno/sportscon_ws/build/mecanum_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_drive build --build-base /home/skyno/sportscon_ws/build/mecanum_drive/build install --record /home/skyno/sportscon_ws/build/mecanum_drive/install.log --single-version-externally-managed install_data
+[0.965s] running egg_info
+[0.965s] creating ../../build/mecanum_drive/mecanum_drive.egg-info
+[0.966s] writing ../../build/mecanum_drive/mecanum_drive.egg-info/PKG-INFO
+[0.966s] writing dependency_links to ../../build/mecanum_drive/mecanum_drive.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../../build/mecanum_drive/mecanum_drive.egg-info/entry_points.txt
+[0.966s] writing requirements to ../../build/mecanum_drive/mecanum_drive.egg-info/requires.txt
+[0.966s] writing top-level names to ../../build/mecanum_drive/mecanum_drive.egg-info/top_level.txt
+[0.966s] writing manifest file '../../build/mecanum_drive/mecanum_drive.egg-info/SOURCES.txt'
+[0.967s] reading manifest file '../../build/mecanum_drive/mecanum_drive.egg-info/SOURCES.txt'
+[0.968s] writing manifest file '../../build/mecanum_drive/mecanum_drive.egg-info/SOURCES.txt'
+[0.968s] running build
+[0.969s] running build_py
+[0.969s] creating /home/skyno/sportscon_ws/build/mecanum_drive/build
+[0.969s] creating /home/skyno/sportscon_ws/build/mecanum_drive/build/lib
+[0.969s] creating /home/skyno/sportscon_ws/build/mecanum_drive/build/lib/mecanum_drive
+[0.969s] copying mecanum_drive/__init__.py -> /home/skyno/sportscon_ws/build/mecanum_drive/build/lib/mecanum_drive
+[0.969s] running install
+[0.970s] running install_lib
+[0.971s] creating /home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages/mecanum_drive
+[0.971s] copying /home/skyno/sportscon_ws/build/mecanum_drive/build/lib/mecanum_drive/__init__.py -> /home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages/mecanum_drive
+[0.971s] byte-compiling /home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages/mecanum_drive/__init__.py to __init__.cpython-310.pyc
+[0.972s] running install_data
+[0.972s] creating /home/skyno/sportscon_ws/install/mecanum_drive/share/ament_index
+[0.972s] creating /home/skyno/sportscon_ws/install/mecanum_drive/share/ament_index/resource_index
+[0.972s] creating /home/skyno/sportscon_ws/install/mecanum_drive/share/ament_index/resource_index/packages
+[0.972s] copying resource/mecanum_drive -> /home/skyno/sportscon_ws/install/mecanum_drive/share/ament_index/resource_index/packages
+[0.972s] copying package.xml -> /home/skyno/sportscon_ws/install/mecanum_drive/share/mecanum_drive
+[0.972s] running install_egg_info
+[0.974s] Copying ../../build/mecanum_drive/mecanum_drive.egg-info to /home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages/mecanum_drive-0.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.983s] writing list of installed files to '/home/skyno/sportscon_ws/build/mecanum_drive/install.log'
+[1.022s] Invoked command in '/home/skyno/sportscon_ws/src/mecanum_drive' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/mecanum_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/mecanum_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_drive build --build-base /home/skyno/sportscon_ws/build/mecanum_drive/build install --record /home/skyno/sportscon_ws/build/mecanum_drive/install.log --single-version-externally-managed install_data

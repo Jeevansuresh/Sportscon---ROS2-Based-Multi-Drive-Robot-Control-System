@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/differential_drive/differential_drive.egg-info
+writing ../../build/differential_drive/differential_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/differential_drive/differential_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/differential_drive/differential_drive.egg-info/entry_points.txt
+writing requirements to ../../build/differential_drive/differential_drive.egg-info/requires.txt
+writing top-level names to ../../build/differential_drive/differential_drive.egg-info/top_level.txt
+writing manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+reading manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/differential_drive/differential_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/skyno/sportscon_ws/build/differential_drive/build
+creating /home/skyno/sportscon_ws/build/differential_drive/build/lib
+creating /home/skyno/sportscon_ws/build/differential_drive/build/lib/differential_drive
+copying differential_drive/__init__.py -> /home/skyno/sportscon_ws/build/differential_drive/build/lib/differential_drive
+running install
+running install_lib
+creating /home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+copying /home/skyno/sportscon_ws/build/differential_drive/build/lib/differential_drive/__init__.py -> /home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive
+byte-compiling /home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../../build/differential_drive/differential_drive.egg-info to /home/skyno/sportscon_ws/install/differential_drive/lib/python3.10/site-packages/differential_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing differential_drive_node script to /home/skyno/sportscon_ws/install/differential_drive/lib/differential_drive
+writing list of installed files to '/home/skyno/sportscon_ws/build/differential_drive/install.log'

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/omni_drive/omni_drive.egg-info
+writing ../../build/omni_drive/omni_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/omni_drive/omni_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/omni_drive/omni_drive.egg-info/entry_points.txt
+writing requirements to ../../build/omni_drive/omni_drive.egg-info/requires.txt
+writing top-level names to ../../build/omni_drive/omni_drive.egg-info/top_level.txt
+writing manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+reading manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/skyno/sportscon_ws/build/omni_drive/build
+creating /home/skyno/sportscon_ws/build/omni_drive/build/lib
+creating /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive
+copying omni_drive/__init__.py -> /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive
+running install
+running install_lib
+creating /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive
+copying /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive/__init__.py -> /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive
+byte-compiling /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index
+creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index
+creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index/packages
+copying resource/omni_drive -> /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/skyno/sportscon_ws/install/omni_drive/share/omni_drive
+running install_egg_info
+Copying ../../build/omni_drive/omni_drive.egg-info to /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/skyno/sportscon_ws/build/omni_drive/install.log'

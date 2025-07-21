@@ -1,0 +1,3 @@
+[console_scripts]
+differential_drive_node = differential_drive.differential_drive_node:main
+

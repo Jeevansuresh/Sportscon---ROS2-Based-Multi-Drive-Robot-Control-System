@@ -1,0 +1,33 @@
+[0.837s] Invoking command in '/home/skyno/sportscon_ws/src/omni_drive': PYTHONPATH=/home/skyno/sportscon_ws/build/omni_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_drive build --build-base /home/skyno/sportscon_ws/build/omni_drive/build install --record /home/skyno/sportscon_ws/build/omni_drive/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.964s] creating ../../build/omni_drive/omni_drive.egg-info
+[0.964s] writing ../../build/omni_drive/omni_drive.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../../build/omni_drive/omni_drive.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/omni_drive/omni_drive.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/omni_drive/omni_drive.egg-info/requires.txt
+[0.964s] writing top-level names to ../../build/omni_drive/omni_drive.egg-info/top_level.txt
+[0.965s] writing manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+[0.966s] reading manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+[0.967s] writing manifest file '../../build/omni_drive/omni_drive.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] creating /home/skyno/sportscon_ws/build/omni_drive/build
+[0.968s] creating /home/skyno/sportscon_ws/build/omni_drive/build/lib
+[0.968s] creating /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive
+[0.968s] copying omni_drive/__init__.py -> /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive
+[0.968s] running install
+[0.968s] running install_lib
+[0.969s] creating /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive
+[0.969s] copying /home/skyno/sportscon_ws/build/omni_drive/build/lib/omni_drive/__init__.py -> /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive
+[0.970s] byte-compiling /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive/__init__.py to __init__.cpython-310.pyc
+[0.970s] running install_data
+[0.970s] creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index
+[0.970s] creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index
+[0.970s] creating /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index/packages
+[0.970s] copying resource/omni_drive -> /home/skyno/sportscon_ws/install/omni_drive/share/ament_index/resource_index/packages
+[0.970s] copying package.xml -> /home/skyno/sportscon_ws/install/omni_drive/share/omni_drive
+[0.970s] running install_egg_info
+[0.971s] Copying ../../build/omni_drive/omni_drive.egg-info to /home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages/omni_drive-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[0.981s] writing list of installed files to '/home/skyno/sportscon_ws/build/omni_drive/install.log'
+[1.015s] Invoked command in '/home/skyno/sportscon_ws/src/omni_drive' returned '0': PYTHONPATH=/home/skyno/sportscon_ws/build/omni_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyno/sportscon_ws/install/omni_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_drive build --build-base /home/skyno/sportscon_ws/build/omni_drive/build install --record /home/skyno/sportscon_ws/build/omni_drive/install.log --single-version-externally-managed install_data
