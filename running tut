@@ -1,0 +1,6 @@
+for joystic --> ros2 run joystick_control joystick_control_node 
+for keyboard --> ros2 run joystick_control keyboard_control_node 
+
+##################################################################################333
+for differntial_drive --> ros2 run differential_drive differential_drive_node 
+for omni_wheels --> ros2 run omni_drive omni_wheel_node 
