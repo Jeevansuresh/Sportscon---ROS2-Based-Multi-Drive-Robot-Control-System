@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "omni_wheel_node = omni_drive.omni_wheels:main",
         ],
     },
 )
